@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+}
+
+.container{
+    max-width: 700px;
+    width: 100%;
+    background: grey;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+button{
+    width: 100px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    background: #cce575;
+}
+
+p{
+    text-align: center;
+    color: black;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
